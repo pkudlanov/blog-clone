@@ -9,6 +9,10 @@
 .centerstage{
     margin: auto;
 }
+.washed-out{
+    background-color: rgb(226, 244, 250);
+    padding: 20px;
+}
 
 .loader {
     filter:hue-rotate(0deg);
