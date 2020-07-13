@@ -19,7 +19,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Russo+One&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+
     <nav class="navbar navbar-expand-lg navbar-light bg-light techfont">
 
         <div class="container">
@@ -41,7 +41,7 @@
                     <li><a href="{% url 'logout' %}">Log Out</a></li>
                     <li><a>Welcome: {{ user.username }}</a></li>
                 {% else %}
-                    <li><a href="{ url 'login' }"><img src="{% static 'images/person.svg' %}" alt="User icon"></a></li>
+                    <li><a href="{% url 'login' %}"><img src="{% static 'images/person.svg' %}" alt="User icon"></a></li>
                 {% endif %}
 
             </ul>
