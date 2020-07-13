@@ -13,7 +13,23 @@
     background-color: rgb(226, 244, 250);
     padding: 20px;
 }
+.postdate{
+    text-align: center;
+}
+.posttitle{
+    font-family: 'Russo One', sans-serif;
+    font-size: 3em;
+    text-align: center;
+}
+.postcontent{
+    font-family: 'Montserrat';
+    font-size: 1.5em;
+}
+.btn-comment{
+    text-align: right;
+}
 
+/* Color Changer Below */
 .loader {
     filter:hue-rotate(0deg);
     color:linear-gradient(45deg,#0f8,#08f);
